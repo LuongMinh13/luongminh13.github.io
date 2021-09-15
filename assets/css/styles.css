@@ -406,7 +406,7 @@ color: #FFF;
     align-self: center;
 }
 .about__description{
-    text-align: center;
+    text-align: center !important;
     margin-bottom: var(--mb-2-5);
 }
 
@@ -1049,7 +1049,7 @@ color: #FFF;
         justify-content: space-between;
     }
     .about__buttons{
-        justify-content: initial;
+        justify-content: center;
     }
 
     .qualification__tabs{
