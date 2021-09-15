@@ -177,7 +177,7 @@ img{
 }
 /*==================== NAV ====================*/
 .nav{
-    max-width: 968px;
+    width: max-content;
     height: var(--header-height);
     display: flex;
     justify-content: space-between;
@@ -187,6 +187,7 @@ img{
 .logo__icon{
     font-size: 2.5rem;
 }
+
 .nav__logo,
 .nav__toggle{
     color: var(--title-color);
@@ -520,10 +521,10 @@ color: #FFF;
     width: 80%;
 }
 
-.skills__close .skills__list{
+/* .skills__close .skills__list{
     height: 0;
     overflow: hidden;
-}
+} */
 
 .skills__open .skills__list{
     height: max-content;
